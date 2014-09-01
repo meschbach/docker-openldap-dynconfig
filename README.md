@@ -10,5 +10,5 @@ Please note this configuration does not include the BDB or HDB backends due to l
 ## Container Configuration
 OpenLDAP is installed into */opt/openldap-latest* (symlinked ot the current revision).  The dynamic configuration backend is stored at */storage/coniguration*, with the intention of additional databases are stoared at */storage/{role-name}*.  The additional database storage mechanisms may either be volume mapped or kept witihn your instance of the container.
 
-# Copyright
+## Copyright
 OpenLDAP is under it's own license, please see it at http://openldap.org.  The configuration is public domain; use at your own risk.
