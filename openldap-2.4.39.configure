@@ -1,0 +1,1 @@
+CC=gcc-4.6 ./configure --enable-crypt --disable-bdb --disable-hdb --enable-mdb --enable-dyngroup --enable-dynlist --prefix=/opt/openldap/openldap-2.4.39
